@@ -29,9 +29,16 @@ namespace assigment5
             #endregion
 
             #region question4
-            Book book = new Book();
-            book.Genre = genre.science;
-            Console.WriteLine(book.Genre);
+            //Book book = new Book();
+            //book.Genre = genre.science;
+            //Console.WriteLine(book.Genre);
+            #endregion
+
+            #region question5 
+            Console.WriteLine((int)genre.fiction);
+            Console.WriteLine((int)genre.nonfiction);
+            Console.WriteLine((int)genre.science);
+
             #endregion
         }
     }
