@@ -45,10 +45,14 @@ namespace assigment5
             #endregion
 
             #region question7
-            genre Genre = genre.fiction;
-            string text=Genre.ToString();
-            Console.WriteLine(text);
-            Console.WriteLine(text.GetType());
+            //genre Genre = genre.fiction;
+            //string text=Genre.ToString();
+            //Console.WriteLine(text);
+            //Console.WriteLine(text.GetType());
+            #endregion
+
+            #region question8
+            //cant answer
             #endregion
         }
     }
