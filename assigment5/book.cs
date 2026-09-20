@@ -6,6 +6,6 @@ namespace assigment5
 {
     internal class Book
     {
-        internal int copiesinstockk = 5; 
+        public string title;
     }
 }

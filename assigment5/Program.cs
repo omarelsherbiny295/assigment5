@@ -15,11 +15,17 @@ namespace assigment5
             #endregion
 
             #region question2 
+            //Book book = new Book();
+            //Console.WriteLine(book.copiesinstockk);
+
+            ////it complie because internal can accessed in any field  of the same project
+
+            #endregion
+
+            #region question3 
             Book book = new Book();
-            Console.WriteLine(book.copiesinstockk);
-
-            //it complie because internal can accessed in any field  of the same project
-
+            book.title = "programming";
+            Console.WriteLine(book.title);
             #endregion
         }
     }
