@@ -1,10 +1,18 @@
-﻿namespace assigment5
+﻿using System.Runtime.CompilerServices;
+
+namespace assigment5
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region question1
+            Book book = new Book();
+
+            Console.WriteLine(book.password);
+
+            //compile time error because the private access modifier cannot accessed outside the class where it created 
+            #endregion
         }
     }
 }
