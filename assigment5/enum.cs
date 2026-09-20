@@ -4,8 +4,12 @@ using System.Text;
 
 namespace assigment5
 {
-    internal class Book
+    internal enum genre
+
     {
-        public genre Genre { get; set; }
+        fiction,
+        nonfiction,
+        science
+
     }
 }

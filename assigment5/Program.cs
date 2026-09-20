@@ -23,9 +23,15 @@ namespace assigment5
             #endregion
 
             #region question3 
+            //Book book = new Book();
+            //book.title = "programming";
+            //Console.WriteLine(book.title);
+            #endregion
+
+            #region question4
             Book book = new Book();
-            book.title = "programming";
-            Console.WriteLine(book.title);
+            book.Genre = genre.science;
+            Console.WriteLine(book.Genre);
             #endregion
         }
     }
