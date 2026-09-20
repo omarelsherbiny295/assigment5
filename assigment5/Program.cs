@@ -7,11 +7,19 @@ namespace assigment5
         static void Main(string[] args)
         {
             #region question1
+            //Book book = new Book();
+
+            //Console.WriteLine(book.password);
+
+            ////compile time error because the private access modifier cannot accessed outside the class where it created 
+            #endregion
+
+            #region question2 
             Book book = new Book();
+            Console.WriteLine(book.copiesinstockk);
 
-            Console.WriteLine(book.password);
+            //it complie because internal can accessed in any field  of the same project
 
-            //compile time error because the private access modifier cannot accessed outside the class where it created 
             #endregion
         }
     }
