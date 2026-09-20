@@ -35,10 +35,13 @@ namespace assigment5
             #endregion
 
             #region question5 
-            Console.WriteLine((int)genre.fiction);
-            Console.WriteLine((int)genre.nonfiction);
-            Console.WriteLine((int)genre.science);
+            //Console.WriteLine((int)genre.fiction);
+            //Console.WriteLine((int)genre.nonfiction);
+            //Console.WriteLine((int)genre.science);
 
+            #endregion
+            #region question6
+            //cant answer
             #endregion
         }
     }
